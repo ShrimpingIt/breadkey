@@ -14,34 +14,29 @@
 
 */
 
+/*int keyCodes[NUM_INPUTS] = {
+  KEY_1,
+  KEY_2,
+  KEY_3,
+  KEY_4,
+  KEY_5,
+  KEY_6,
+  KEY_7,
+  KEY_8,
+  KEY_9,
+  KEY_0,
+  KEY_A,
+  KEY_B,
+  KEY_C,
+  KEY_D,
+  KEY_E,
+  KEY_F
+};*/
+
 int keyCodes[NUM_INPUTS] = {
-  // top side of the makey makey board
- 
-  KEY_UP_ARROW,      // up arrow pad
-  KEY_DOWN_ARROW,    // down arrow pad
-  KEY_LEFT_ARROW,    // left arrow pad
-  KEY_RIGHT_ARROW,   // right arrow pad
-  ' ',               // space button pad
-  MOUSE_LEFT,        // click button pad
-  
-  // female header on the back left side
-  
-  'w',                // pin D5
-  'a',                // pin D4
-  's',                // pin D3
-  'd',                // pin D2
-  'f',                // pin D1
-  'g',                // pin D0
-  
-  // female header on the back right side
-  
-  MOUSE_MOVE_UP,      // pin A5
-  MOUSE_MOVE_DOWN,    // pin A4
-  MOUSE_MOVE_LEFT,    // pin A3
-  MOUSE_MOVE_RIGHT,   // pin A2
-  MOUSE_LEFT,         // pin A1
-  MOUSE_RIGHT         // pin A0
+  KEY_1
 };
+
 
 ///////////////////////////
 // NOISE CANCELLATION /////
